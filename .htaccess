@@ -1,0 +1,10 @@
+
+# HTID:16952416: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:16952416:
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^([a-z]+)$ $1.php
+
+ErrorDocument 404 /404.php
